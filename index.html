@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- how to play -->
+      <button id="how-btn" title="Click to Know How To Play">
+        <i class="fa-chisel fa-regular fa-question"></i>
+      </button>
+
+      <!-- game category -->
+      <div class="game-info">
+        <div class="game-name">Hangman Game</div>
+        <div class="score">Score: 0</div>
+
+        <!-- levels -->
+        <div class="difficulty-select">
+          <label for="difficulty" class="difficulty">Choose difficulty: </label>
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <button id="start-btn">Start Game</button>
+        </div>
+        <div class="category">Word From: <span></span></div>
+        <button id="reset-btn">Reset Game</button>
+      </div>
+      <hr class="top" />
+      <!-- hangman draw -->
+      <div class="row">
+        <div class="hangman-draw">
+          <div class="the-draw">
+            <div class="the-stand"></div>
+            <div class="the-hang"></div>
+            <div class="the-rope"></div>
+            <div class="the-man">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="hands"></div>
+              <div class="legs"></div>
+            </div>
+          </div>
+        </div>
+        <!-- box letters -->
+        <div class="letters"></div>
+      </div>
+      <hr />
+      <!-- guess letter -->
+      <div class="letters-guess"></div>
+      <!-- hint -->
+      <button id="hint-btn">Hint</button>
+      <!-- score -->
+      <!-- footer -->
+      <footer>
+        <div class="footer" id="footer">
+          <p>
+            Made with
+            <i class="fa-solid fa-heart"></i> by
+            <span>dina elbry</span>
+            | Copyright &copy; 2025 All rights reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <!-- sounds effect -->
+    <audio id="success" src="assets/yay.mp3" preload="auto"></audio>
+    <audio id="fail" src="assets/fail.mp3" preload="auto"></audio>
+    <audio id="game-won" src="assets/game-won.mp3"></audio>
+    <audio id="game-over" src="assets/game-over.mp3"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>

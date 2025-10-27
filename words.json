@@ -1,0 +1,23 @@
+{
+  "food": ["Pizza", "Sandwich", "Fish", "Burger", "Pasta", "Koshari", "Beef", "Rice", "Soup", "Salad", "Tacos", "Sushi", "Falafel", "Noodles", "Grilled Chicken", "Lasagna", "Dumplings", "Pancakes"],
+  "movies": ["Titanic", "Avatar", "Inception", "Frozen", "Gladiator", "Up", "Joker", "Moana", "Cars", "Coco", "Lion King", "Spider-Man", "The Matrix", "Star Wars", "Black Panther", "Toy Story", "Interstellar"],
+  "animals": ["Elephant", "Tiger", "Dolphin", "Rabbit", "Giraffe", "Cat", "Dog", "Fox", "Lion", "Bear", "Eagle", "Panda", "Wolf", "Deer", "Blue Whale", "Zebra", "Cheetah", "Penguin"],
+  "sports": ["Football", "Tennis", "Swimming", "Basketball", "Boxing", "Volleyball", "Baseball", "Judo", "Cricket", "Golf", "Rugby", "Ice Hockey", "Soccer", "Karate", "Surfing"],
+  "professions": ["Engineer", "Doctor", "Pilot", "Teacher", "Chef", "Nurse", "Artist", "Lawyer", "Journalist", "Dentist", "Architect", "Firefighter", "Scientist", "Designer", "Plumber"],
+  "technology": ["Laptop", "Robot", "Internet", "Phone", "Smartwatch", "Blockchain", "AI", "Computer", "Code", "Tablet", "Software", "Cloud", "VR Headset", "Smart TV", "Drone", "Camera", "Smart Home"],
+  "fruits": ["Mango", "Apple", "Banana", "Orange", "Strawberry", "Plum", "Grapes", "Melon", "Pear", "Fig", "Kiwi", "Pineapple", "Peach", "Cherry", "Apricot"],
+  "nature": ["Mountain", "River", "Forest", "Ocean", "Desert", "Sky", "Rain", "Tree", "Waterfall", "Lake", "Volcano", "Hill", "Sunset", "Canyon", "Glacier"],
+  "clothes": ["Jacket", "Trousers", "Sweater", "Skirt", "Scarf", "Tie", "Dress", "Shirt", "Jeans", "Hat", "Coat", "Socks", "T-shirt", "Boots", "Gloves"],
+  "brands": ["Nike", "Adidas", "Apple", "Samsung", "Zara", "Shein", "Chanel", "Gucci", "Dior", "Puma", "Prada", "Levi's", "Rolex", "Tesla", "H&M"],
+  "bodyParts": ["Heart", "Brain", "Leg", "Hand", "Eye", "Mouth", "Hair", "Nose", "Ear", "Shoulder", "Knee", "Foot", "Elbow", "Wrist", "Ankle"],
+  "makeup": ["Lipstick", "Mascara", "Foundation", "Blush", "Eyeliner", "Highlighter", "Concealer", "Powder", "Bronzer", "Lip Gloss", "Eyeshadow", "Brow Gel", "Lip Balm", "Contour"],
+  "countries": ["Egypt", "Palestine", "Canada", "Brazil", "France", "Australia", "Italy", "Germany", "Indonesia", "Japan", "Mexico", "India", "South Korea", "Spain", "Nigeria"],
+  "hobbies": ["Reading", "Painting", "Hiking", "Photography", "Cooking", "Gaming", "Dancing", "Singing", "Knitting", "Cycling", "Yoga", "Writing", "Fishing", "Skiing", "Drawing"],
+  "vehicles": ["Car", "Bicycle", "Motorcycle", "Bus", "Train", "Airplane", "Boat", "Scooter", "Truck", "Van", "Jet Ski", "Subway", "Helicopter", "Tram", "Yacht"],
+  "musical_instruments": ["Guitar", "Piano", "Violin", "Drums", "Flute", "Oud", "Trumpet", "Saxophone", "Harp", "Cello", "Banjo", "Clarinet", "Ukulele", "Mandolin", "Accordion"],
+  "drinks": ["Coffee", "Tea", "Juice", "Water", "Soda", "Milk", "Smoothie", "Lemonade", "Cola", "Green Tea", "Hot Cocoa", "Iced Tea", "Espresso", "Cappuccino"],
+  "colors": ["Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Black", "White", "Pink", "Gray", "Brown", "Teal", "Navy Blue", "Silver", "Gold"],
+  "cities": ["Paris", "Tokyo", "Cairo", "London", "Sydney", "Dubai", "New York", "Rome", "Rio", "Berlin", "Seoul", "Miami"],
+  "weather": ["Sunny", "Rainy", "Cloudy", "Snowy", "Windy", "Foggy", "Stormy", "Hot", "Cold", "Humid", "Clear Sky"],
+  "furniture": ["Chair", "Table", "Sofa", "Bed", "Desk", "Shelf", "Cabinet", "Lamp", "Couch", "Wardrobe", "Bookcase", "Stool"]
+}
