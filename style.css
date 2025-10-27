@@ -693,7 +693,7 @@ hr {
 
 /* hint */
 #hint-btn {
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 80%;
   transform: translate(-50%, -50%);
@@ -724,9 +724,10 @@ hr {
 }
 @media (max-width: 768px) {
   #hint-btn {
+    position: relative;
     left: 50%;
     top: 87%;
-    margin-top: 130px;
+    margin-top: 60px;
     font-size: 24px;
     padding: 15px 60px;
   }
